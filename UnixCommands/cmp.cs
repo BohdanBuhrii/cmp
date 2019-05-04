@@ -20,9 +20,9 @@ namespace UnixCommands
         }
 
         private List<DifferenceInfo> Compare(out int output, bool stopIfFound, 
-            string pathToFile1, string pathToFile2, int skip1, int skip2, int limit=-1)//todo
+            string pathToFile1, string pathToFile2, int skip1, int skip2, int limit=-1)
         {
-            //throw new Exception("Needs TODO!");
+            
             List<DifferenceInfo> result = new List<DifferenceInfo>();
             output = -1;
             byte[] file1, file2;

@@ -1,0 +1,7 @@
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\bin\Debug\UnixCommands.exe.config
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\bin\Debug\UnixCommands.exe
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\bin\Debug\UnixCommands.pdb
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\obj\Debug\UnixCommands.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\obj\Debug\UnixCommands.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\obj\Debug\UnixCommands.exe
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\UnixCommands\obj\Debug\UnixCommands.pdb

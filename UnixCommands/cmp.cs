@@ -22,22 +22,48 @@ namespace UnixCommands
         private List<DifferenceInfo> Compare(out int output, bool stopIfFound, 
             string pathToFile1, string pathToFile2, int skip1, int skip2, int limit=-1)//todo
         {
-            throw new Exception("Needs TODO!");
+            //throw new Exception("Needs TODO!");
             List<DifferenceInfo> result = new List<DifferenceInfo>();
+            output = -1;
+            byte[] file1, file2;
+            int lineCounter = 1;
 
-            using (StreamReader file1 = new StreamReader(pathToFile1))
+            try
             {
-                using (StreamReader file2 = new StreamReader(pathToFile2))
-                {
-                    while (file1.EndOfStream)
-                    {
+                file1 = File.ReadAllBytes(pathToFile1);
+                file2 = File.ReadAllBytes(pathToFile2);
 
+                int n;
+
+                if (limit < 0) n = file1.Length;
+                else n = limit;
+
+                for (int i = skip1; i < n; i++)
+                {
+                    if (file1[i] == 10) lineCounter++;
+
+                    if (file1[i] != file2[i - skip1 + skip2])
+                    {
+                        result.Add(new DifferenceInfo {
+                            line = lineCounter, sequence = i, first = file1[i], second = file2[i - skip1 + skip2] });
+
+                        if (stopIfFound) break;
                     }
                 }
-            
-
             }
+            catch (Exception) 
+            {
+                result.Add(new DifferenceInfo());
+                output = 2;
+            }
+
+            if (result.Count == 0 && output != 2)
+            {
+                result.Add(new DifferenceInfo());
                 output = 0;
+            }
+            else if (result.Count > 0 && output != 2) output = 1;
+
             return result;
         }
 

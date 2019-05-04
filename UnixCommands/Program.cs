@@ -11,7 +11,7 @@ namespace UnixCommands
         static void Main(string[] args)
         {
             Cmp cmp = new Cmp();
-            Console.Write(cmp.Help());
+            Console.WriteLine("output: " + cmp.PrintBytes(@"..\..\file1.txt", @"..\..\file2.txt").ToString());
             Console.Read();
         }
     }

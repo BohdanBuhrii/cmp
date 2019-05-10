@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\ConsoleMenu\\ConsoleMenu.csproj": {}
+  },
+  "projects": {
+    "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Commands\\Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Commands\\Commands.csproj",
+        "projectName": "Commands",
+        "projectPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Commands\\Commands.csproj",
+        "packagesPath": "C:\\Users\\BARBOSS\\.nuget\\packages\\",
+        "outputPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BARBOSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\ConsoleMenu\\ConsoleMenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\ConsoleMenu\\ConsoleMenu.csproj",
+        "projectName": "ConsoleMenu",
+        "projectPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\ConsoleMenu\\ConsoleMenu.csproj",
+        "packagesPath": "C:\\Users\\BARBOSS\\.nuget\\packages\\",
+        "outputPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\ConsoleMenu\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BARBOSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Commands\\Commands.csproj": {
+                "projectPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Commands\\Commands.csproj"
+              },
+              "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Helper\\Helper.csproj": {
+                "projectPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Helper\\Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Helper\\Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Helper\\Helper.csproj",
+        "projectName": "Helper",
+        "projectPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Helper\\Helper.csproj",
+        "packagesPath": "C:\\Users\\BARBOSS\\.nuget\\packages\\",
+        "outputPath": "D:\\USERS\\Buhrii_B\\C#\\Програмне забезпечення\\UnixCommands\\Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BARBOSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

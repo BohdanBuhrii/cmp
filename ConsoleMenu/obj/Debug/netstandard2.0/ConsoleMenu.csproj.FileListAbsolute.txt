@@ -1,0 +1,14 @@
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\ConsoleMenu.deps.json
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\ConsoleMenu.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\ConsoleMenu.pdb
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\Commands.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\Helper.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\Commands.pdb
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\bin\Debug\netstandard2.0\Helper.pdb
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.AssemblyInfoInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.AssemblyInfo.cs
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.csproj.CopyComplete
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\ConsoleMenu\obj\Debug\netstandard2.0\ConsoleMenu.pdb

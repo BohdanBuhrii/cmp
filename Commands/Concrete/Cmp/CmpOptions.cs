@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 
-
-namespace UnixCommands
+namespace UnixCommands.Concrete.Cmp
 {
-    public class Cmp
+    
+    static class CmpOptions
     {
-        private readonly string version = "1.0";
+        private readonly static string version = "1.0";
 
         private struct DifferenceInfo
         {
@@ -17,10 +17,10 @@ namespace UnixCommands
             public byte second;
         }
 
-        private List<DifferenceInfo> Compare(out int output, bool stopIfFound, 
-            string pathToFile1, string pathToFile2, int skip1, int skip2, int limit=-1)
+        private static List<DifferenceInfo> Compare(out int output, bool stopIfFound,
+            string pathToFile1, string pathToFile2, int skip1, int skip2, int limit = -1)
         {
-            
+
             List<DifferenceInfo> result = new List<DifferenceInfo>();
             output = -1;
             byte[] file1, file2;
@@ -42,14 +42,19 @@ namespace UnixCommands
 
                     if (file1[i] != file2[i - skip1 + skip2])
                     {
-                        result.Add(new DifferenceInfo {
-                            line = lineCounter, sequence = i, first = file1[i], second = file2[i - skip1 + skip2] });
+                        result.Add(new DifferenceInfo
+                        {
+                            line = lineCounter,
+                            sequence = i,
+                            first = file1[i],
+                            second = file2[i - skip1 + skip2]
+                        });
 
                         if (stopIfFound) break;
                     }
                 }
             }
-            catch (Exception) 
+            catch (Exception)
             {
                 result.Add(new DifferenceInfo());
                 output = 2;
@@ -66,7 +71,7 @@ namespace UnixCommands
         }
 
         //-b, --print-bytes      	print differing bytes
-        public int PrintBytes(string pathToFile1, string pathToFile2)
+        public static int PrintBytes(string pathToFile1, string pathToFile2)
         {
             /*
             DifferenceInfo diff = Compare(out int output, true, pathToFile1, pathToFile2, 0, 0, -1)[0];
@@ -86,7 +91,7 @@ namespace UnixCommands
 
         //-i, --ignore-initial=SKIP skip first SKIP bytes of both inputs
         //-i, --ignore-initial=SKIP1:SKIP2 skip first SKIP1 bytes of FILE1 and first SKIP2 bytes of FILE2
-        public int IgnoreInitialBytes(string pathToFile1, string pathToFile2, int skip1, int skip2)
+        public static int IgnoreInitialBytes(string pathToFile1, string pathToFile2, int skip1, int skip2=0)
         {
             DifferenceInfo diff = Compare(out int output, true, pathToFile1, pathToFile2, skip1, skip2, -1)[0];
 
@@ -101,7 +106,7 @@ namespace UnixCommands
         }
 
         //-l, --verbose output byte numbers and differing byte values
-        public int Verbose(string pathToFile1, string pathToFile2)
+        public static int Verbose(string pathToFile1, string pathToFile2)
         {
             List<DifferenceInfo> diffs = Compare(out int output, false, pathToFile1, pathToFile2, 0, 0, -1);
 
@@ -120,7 +125,7 @@ namespace UnixCommands
         }
 
         //-n, --bytes=LIMIT compare at most LIMIT bytes
-        public int BytesLimit(string pathToFile1, string pathToFile2, int limit)
+        public static int BytesLimit(string pathToFile1, string pathToFile2, int limit)
         {
             DifferenceInfo diff = Compare(out int output, true, pathToFile1, pathToFile2, 0, 0, limit)[0];
 
@@ -135,7 +140,7 @@ namespace UnixCommands
         }
 
         //-s, --quiet, --silent suppress all normal output
-        public int Silent(string pathToFile1, string pathToFile2)
+        public static int Silent(string pathToFile1, string pathToFile2)
         {
             Compare(out int output, true, pathToFile1, pathToFile2, 0, 0, -1);
 
@@ -143,15 +148,19 @@ namespace UnixCommands
         }
 
         //-v, --version output version information and exit
-        public string Version()
+        public static int Version()
         {
-            return version;
+            Console.WriteLine(version);
+            return 0;
         }
 
         //--help display help and exit
-        public string Help()
+        public static int Help()
         {
-            return File.ReadAllText(@"..\..\Help.txt");
+            Console.Write(File.ReadAllText(@"..\..\Help.txt"));
+            return 0;
         }
     }
+
+
 }

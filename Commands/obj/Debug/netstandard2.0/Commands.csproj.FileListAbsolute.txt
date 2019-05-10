@@ -1,0 +1,8 @@
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\bin\Debug\netstandard2.0\Commands.deps.json
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\bin\Debug\netstandard2.0\Commands.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\bin\Debug\netstandard2.0\Commands.pdb
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\obj\Debug\netstandard2.0\Commands.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\obj\Debug\netstandard2.0\Commands.AssemblyInfoInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\obj\Debug\netstandard2.0\Commands.AssemblyInfo.cs
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\obj\Debug\netstandard2.0\Commands.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Commands\obj\Debug\netstandard2.0\Commands.pdb

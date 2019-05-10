@@ -1,0 +1,9 @@
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\bin\Debug\netstandard2.0\Helper.deps.json
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\bin\Debug\netstandard2.0\Helper.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\bin\Debug\netstandard2.0\Helper.pdb
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\obj\Debug\netstandard2.0\Helper.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\obj\Debug\netstandard2.0\Helper.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\obj\Debug\netstandard2.0\Helper.AssemblyInfoInputs.cache
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\obj\Debug\netstandard2.0\Helper.AssemblyInfo.cs
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\obj\Debug\netstandard2.0\Helper.dll
+D:\USERS\Buhrii_B\C#\Програмне забезпечення\UnixCommands\Helper\obj\Debug\netstandard2.0\Helper.pdb
